@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let nam=+ prompt('nhap nam')
+   function kiemtra(nam){
+       if((nam%4==0 && nam%100!==0 && nam!==400)||(nam%100==0 && nam%400==0)){
+           document.write(nam +' do la nam Nhuan')
+           return nam
+       }else{
+       document.write( nam + ' do la nam  khong Nhuan')}
+       return nam
+   }
+   kiemtra(nam)
+</script>
+
+</body>
+</html>
